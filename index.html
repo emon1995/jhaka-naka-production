@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jhaka Naka Production</title>
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="./images/camera-man.jpg"
+      type="image/x-icon"
+    />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CUSTOM TAILWIND CSS -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              yellow: "#fecc02",
+              black: "#131313",
+              gray: "#4e4e4e",
+            },
+            fontFamily: {
+              bebas: ["Bebas Neue", "cursive"],
+              montserrat: ["Montserrat", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header>
+      <!-- NAVBAR SECTION -->
+      <nav class="bg-white h-20">
+        <div
+          class="font-bebas flex justify-between items-center h-20 w-full max-w-7xl mx-auto"
+        >
+          <h1 class="text-2xl">Jhaka Naka Production</h1>
+          <ul class="flex text-lg gap-8">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Our Movies</a></li>
+            <li><a href="">Services</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
